@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.about-me {
+  background-image: url(../images/pp.jpeg);
+  text-align: center;
+  color: rgba(30, 127, 196, 0.823);
+  border: 7px solid rgba(30, 127, 196, 0.823);
+  padding: 4px;
+  font-family: sans-serif , Arial;
+}
+
+.about-me .picture {
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 50%;
+  border: 7px solid rgba(30, 127, 196, 0.823);
+}
+
+.about-me  .list {
+  font-weight: bold;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.about-me .list::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 5px;
+    background-color:rgb(170, 209, 233) ;
+    transition: 0.5s;
+}
+
+.about-me li:hover::after{
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.link {
+  color: rgba(30, 127, 196, 0.823);
+  margin: 0 10px;
+}
+
+
+
+
+
